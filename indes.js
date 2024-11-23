@@ -3,15 +3,24 @@
 // const friends = friendList.join(", ")
 // console.log(friends)
 
-// TASK 2
-const cardList = ["card-1", "card-2", "card-3", "card-4", "card-5"]
-const cards = cardList.splice("")
-console.log(cards)
+// const list = ["a", "b", "c", "d"];
+// let result = "";
+// for (let i = 0; i < list.length; i++) {
+//   result += list[i];
+//   if (i !== list.length - 1) {
+//     result += ", ";
+//   }
+// }
+// console.log(result);
 
-cards.pop("")
-cards.pop("")
-cards.pop("")
-cards.push("card-4")
-cards.push("card-5")
-cards.push("card-6")
-console.log(cards)
+// Task 2
+let cards = ["a", "b", "c", "d"];
+
+cards.splice(2, 2);
+console.log(cards);
+
+cards.splice(3, 0, "c.d");
+console.log(cards);
+
+cards.splice(1, 1, "idk");
+console.log(cards);
