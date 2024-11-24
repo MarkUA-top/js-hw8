@@ -3,11 +3,10 @@
 // const friends = friendList.join(", ")
 // console.log(friends)
 
-// const list = ["a", "b", "c", "d"];
 // let result = "";
-// for (let i = 0; i < list.length; i++) {
-//   result += list[i];
-//   if (i !== list.length - 1) {
+// for (let i = 0; i < friendList.length; i++) {
+//   result += friendList[i];
+//   if (i !== friendList.length - 1) {
 //     result += ", ";
 //   }
 // }
